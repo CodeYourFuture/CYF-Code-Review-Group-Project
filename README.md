@@ -351,3 +351,5 @@ your code's formatting.
 This action will run all of the `.spec.js` tests in the `./src` folder each time
 someone sends a PR to or pushes to `main`/`master`. All of the linting tests
 must pass _before_ you are allowed to merge changes.
+
+..
