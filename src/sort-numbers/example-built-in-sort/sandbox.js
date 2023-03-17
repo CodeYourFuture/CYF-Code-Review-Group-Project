@@ -23,4 +23,4 @@ const defaultSort = (arr) => {
 };
 
 // would have expected this to log [-3, -2, -1]
-console.log(defaultSort([-1, -2, -3])); // [-1, -2, -3], what?
+console.log(defaultSort([-1, -2, -3])); // [-1, -2, -3], what??
