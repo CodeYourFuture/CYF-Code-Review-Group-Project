@@ -2,12 +2,12 @@
   "name": "practice-code-review",
   "version": "1.0.0",
   "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "format": "prettier --write ./",
     "format:check": "prettier --check ./",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
     "lint:ls": "ls-lint",
     "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests --coverage ",
     "spell-check": "cspell  './**'"
   },
   "type": "module",
